@@ -1,0 +1,47 @@
+<svg width="41.000000" height="43.416016" viewBox="0 0 41 43.416" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_2048_3871_dd" x="0.716797" y="15.040039" width="38.850098" height="28.375977" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="1.82" result="effect_layerBlur_1"/>
+		</filter>
+		<filter id="filter_2048_3873_dd" x="11.069824" y="11.070312" width="18.450195" height="18.450195" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="0.5"/>
+			<feGaussianBlur stdDeviation="0.833333"/>
+			<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+			<feBlend mode="normal" in2="shape" result="effect_innerShadow_1"/>
+		</filter>
+		<clipPath id="clip2048_3873">
+			<rect id="Frame" rx="-0.109170" width="18.231661" height="18.231661" transform="translate(11.178994 11.179482)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<linearGradient x1="3.446503" y1="2.685595" x2="33.883179" y2="41.000008" id="paint_linear_2048_3870_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FBFBFC"/>
+			<stop offset="1.000000" stop-color="#DBDDE8"/>
+		</linearGradient>
+		<linearGradient x1="6.744448" y1="20.499996" x2="30.776756" y2="39.304802" id="paint_linear_2048_3871_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#00A2F4"/>
+			<stop offset="1.000000" stop-color="#05ABFF"/>
+		</linearGradient>
+		<linearGradient x1="5.945080" y1="5.330076" x2="31.980080" y2="37.925083" id="paint_linear_2048_3872_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#0CA8F7"/>
+			<stop offset="1.000000" stop-color="#0096E1"/>
+		</linearGradient>
+	</defs>
+	<rect id="Rectangle 1698" rx="14.000000" width="41.000000" height="41.000000" fill="url(#paint_linear_2048_3870_0)" fill-opacity="1.000000"/>
+	<g opacity="0.250000" filter="url(#filter_2048_3871_dd)">
+		<rect id="Rectangle 1700" x="6.176758" y="20.500000" rx="8.728167" width="27.930130" height="17.456333" fill="url(#paint_linear_2048_3871_0)" fill-opacity="1.000000"/>
+	</g>
+	<rect id="Rectangle 1699" x="5.330078" y="5.330078" rx="15.128820" width="30.257641" height="30.257641" fill="url(#paint_linear_2048_3872_0)" fill-opacity="1.000000"/>
+	<g filter="url(#filter_2048_3873_dd)">
+		<g clip-path="url(#clip2048_3873)">
+			<path id="Vector" d="M29.43 14.53C28.84 14.79 28.21 14.97 27.57 15.07C27.87 15.01 28.31 14.47 28.48 14.25C28.75 13.92 28.96 13.55 29.09 13.14C29.09 13.11 29.12 13.07 29.09 13.05C29.07 13.04 29.05 13.04 29.04 13.04C29.02 13.04 29 13.04 28.99 13.05C28.29 13.43 27.55 13.71 26.78 13.91C26.75 13.91 26.72 13.92 26.69 13.91C26.67 13.9 26.64 13.89 26.62 13.87C26.56 13.8 26.5 13.73 26.43 13.67C26.11 13.38 25.76 13.15 25.37 12.98C24.85 12.77 24.29 12.68 23.73 12.71C23.18 12.75 22.65 12.89 22.17 13.14C21.69 13.4 21.27 13.76 20.93 14.19C20.58 14.63 20.32 15.14 20.18 15.69C20.06 16.22 20.05 16.76 20.14 17.28C20.14 17.37 20.14 17.39 20.06 17.37C17 16.92 14.49 15.83 12.44 13.5C12.35 13.4 12.31 13.4 12.23 13.5C11.34 14.86 11.77 17.01 12.89 18.07C13.04 18.21 13.19 18.35 13.36 18.48C12.85 18.44 12.35 18.3 11.89 18.07C11.8 18.01 11.76 18.04 11.75 18.15C11.74 18.29 11.74 18.43 11.75 18.58C11.84 19.26 12.11 19.91 12.53 20.46C12.96 21 13.52 21.43 14.16 21.69C14.31 21.75 14.47 21.8 14.64 21.84C14.17 21.93 13.68 21.94 13.2 21.88C13.1 21.86 13.06 21.91 13.1 22.01C13.73 23.73 15.1 24.25 16.1 24.55C16.24 24.57 16.38 24.57 16.53 24.6C16.53 24.6 16.53 24.6 16.51 24.63C16.21 25.17 15.01 25.53 14.46 25.72C13.46 26.08 12.39 26.22 11.33 26.13C11.16 26.1 11.13 26.11 11.08 26.13C11.04 26.15 11.08 26.2 11.13 26.24C11.34 26.38 11.56 26.5 11.78 26.62C12.45 26.99 13.15 27.28 13.88 27.48C17.64 28.52 21.88 27.76 24.71 24.95C26.93 22.74 27.72 19.69 27.72 16.64C27.72 16.53 27.86 16.46 27.94 16.4C28.5 15.96 29 15.44 29.41 14.86C29.48 14.77 29.52 14.66 29.51 14.55C29.51 14.49 29.51 14.5 29.43 14.53Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+</svg>
