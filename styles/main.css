@@ -192,10 +192,9 @@ a {
   left: 25px;
   top: 200px;
   z-index: 1;
-
 }
-.parallax_element {
-  z-index: 2;
+.parallax_element img{
+  z-index: 2 !important; 
 }
 .header_wrapper {
   position: relative;
@@ -2491,4 +2490,19 @@ footer {
 
 .main_nav_list p {
   cursor: pointer;
+}
+
+.parallax_element img {
+  display: inline-block;
+  animation: smoothBounce 2s infinite;
+}
+
+@keyframes smoothBounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
 }
