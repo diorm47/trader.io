@@ -18,12 +18,14 @@
             <img src="./assets/logo.svg" alt="" />
           </a>
           <div class="main_nav_list">
-            <a href="#"><p>Our Goal</p></a>
-            <a href="#"><p>About Us</p></a>
-            <a href="#"><p>How It Work</p></a>
-            <a href="#"><p>Tokenomics</p></a>
-            <a href="#"><p>Roadmap</p></a>
-            <a href="#"><p>Community & Support</p></a>
+            <p class="scroll-button" id="our-goal-btn">Our Goal</p>
+            <p class="scroll-button" id="about-us-btn">About Us</p>
+            <p class="scroll-button" id="how-it-works-btn">How It Work</p>
+            <p class="scroll-button" id="tokenomics-btn">Tokenomics</p>
+            <p class="scroll-button" id="roadmap-btn">Roadmap</p>
+            <p class="scroll-button" id="community-support-btn">
+              Community & Support
+            </p>
           </div>
           <div class="main_nav_actions">
             <a href="#"><p>Log in</p></a>
@@ -46,7 +48,7 @@
         <div class="header_wrapper container">
           <img
             class="header_left_icon"
-            src="./assets/icons/header-left-icon.svg"
+            src="./assets/icons/header-left-icon.png"
             alt=""
           />
           <img
@@ -59,9 +61,11 @@
             src="./assets/gradients/header-cube.svg"
             alt=""
           />
-          <video class="video" autoplay muted loop playsinline>
+          <!-- <video class="header_wrapper_gif" autoplay muted loop playsinline>
             <source src="./assets/gifs/header-bg-gif.mp4" type="video/mp4" />
-          </video>
+          </video> -->
+
+          <img class="header_wrapper_gif" src="./assets/gifs/gif.png" alt="" />
           <div class="loved_investm">
             <img src="./assets/icons/loved.svg" alt="" />
             <p>we are Loved by 100,000+ investments</p>
@@ -79,11 +83,11 @@
           </div>
           <img
             class="header_content_bg"
-            src="./assets/gradients/header-content-bg.svg"
+            src="./assets/gradients/header-content-bg.png"
             alt=""
           />
           <div class="header_content_block">
-            <div class="header_content_block_top">
+            <div class="header_content_block_top" id="our-goal">
               <div class="header_content_block_top_left">
                 <div class="header_motto">
                   <p>The Market Needs a Change.</p>
@@ -169,12 +173,12 @@
             <div class="why_choose_block">
               <img
                 class="why_choose_left"
-                src="./assets/icons/why-choose-left.svg"
+                src="./assets/icons/why-choose-left.png"
                 alt=""
               />
               <img
                 class="why_choose_right"
-                src="./assets/icons/why-choose-right.svg"
+                src="./assets/icons/why-choose-right.png"
                 alt=""
               />
               <img
@@ -300,7 +304,7 @@
               </div>
             </div>
           </div>
-          <div class="overviews_wrapper_right">
+          <div class="overviews_wrapper_right" id="about-us">
             <div class="overviews_wrapper_right_top">
               <div class="overviews_wrapper_right_main_text">
                 <h2>Company Overview</h2>
@@ -475,7 +479,7 @@
         </div>
       </div>
 
-      <div class="how_it_works">
+      <div class="how_it_works" id="how-it-works">
         <div class="how_it_works_wrapper container">
           <div class="how_it_works_title">
             <div class="how_it_works_title_logo">
@@ -627,7 +631,7 @@
         <!-- <img class="goahead_bg_cube" src="./assets/gradients/go-ahead-bg-cube.svg" alt=""> -->
       </div>
 
-      <div class="for_investors container">
+      <div class="for_investors container" id="tokenomics">
         <div class="blocks_title">
           <h3>For Investors</h3>
         </div>
@@ -773,7 +777,7 @@
             <p>7,770,000,000 <span>/ TDT</span></p>
           </div>
           <div class="token_details_top_card">
-            <img src="./assets/icons/detail-icon-2.svg" alt="" />
+            <img src="./assets/icons/detail-icon-2.png" alt="" />
             <h4>Secure Trade Token (STT)</h4>
             <h5>Supply</h5>
             <p>
@@ -1052,7 +1056,7 @@
         </div>
       </div>
 
-      <div class="roadmap">
+      <div class="roadmap" id="roadmap">
         <img class="roadmap_tree" src="./assets/gradients/roadmap.png" alt="" />
         <img
           class="roadmap_cubes"
@@ -1175,7 +1179,7 @@
         </div>
       </div>
 
-      <div class="support_wrapper">
+      <div class="support_wrapper" id="community-support">
         <div class="support container">
           <div class="support_title">
             <h4>Community & Support </h4>
@@ -1202,7 +1206,7 @@
                     </p>
                   </div>
                   <div class="support_carousel_card_author">
-                    <img src="./assets/images/author.svg" alt="" />
+                    <img src="./assets/images/author.png" alt="" />
                     <p>James Santiago</p>
                   </div>
                 </div>
@@ -1218,7 +1222,7 @@
                     </p>
                   </div>
                   <div class="support_carousel_card_author">
-                    <img src="./assets/images/author.svg" alt="" />
+                    <img src="./assets/images/author.png" alt="" />
                     <p>James Santiago</p>
                   </div>
                 </div>
@@ -1234,7 +1238,7 @@
                     </p>
                   </div>
                   <div class="support_carousel_card_author">
-                    <img src="./assets/images/author.svg" alt="" />
+                    <img src="./assets/images/author.png" alt="" />
                     <p>James Santiago</p>
                   </div>
                 </div>
@@ -1250,7 +1254,7 @@
                     </p>
                   </div>
                   <div class="support_carousel_card_author">
-                    <img src="./assets/images/author.svg" alt="" />
+                    <img src="./assets/images/author.png" alt="" />
                     <p>James Santiago</p>
                   </div>
                 </div>
@@ -1266,7 +1270,7 @@
                     </p>
                   </div>
                   <div class="support_carousel_card_author">
-                    <img src="./assets/images/author.svg" alt="" />
+                    <img src="./assets/images/author.png" alt="" />
                     <p>James Santiago</p>
                   </div>
                 </div>
@@ -1282,7 +1286,7 @@
                     </p>
                   </div>
                   <div class="support_carousel_card_author">
-                    <img src="./assets/images/author.svg" alt="" />
+                    <img src="./assets/images/author.png" alt="" />
                     <p>James Santiago</p>
                   </div>
                 </div>

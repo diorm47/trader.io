@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Inter", sans-serif;
@@ -73,8 +76,22 @@ a {
   line-height: 117%;
   letter-spacing: 0%;
   text-align: left;
+  transition: all 1s ease;
 }
-
+.main_nav_list p:hover,
+.main_nav_actions p:hover {
+  transition: all 1s ease;
+  background: linear-gradient(
+    90deg,
+    rgb(216, 181, 255),
+    rgb(139, 168, 255),
+    rgb(181, 66, 185),
+    rgb(229, 229, 232)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 .main_nav_actions {
   display: flex;
   align-items: center;
@@ -94,8 +111,13 @@ a {
   line-height: 24px;
   letter-spacing: 0%;
   text-align: center;
+  transition: all 0.4s ease;
 }
 
+.main_btn:hover {
+  transition: all 0.4s ease;
+  background: rgb(59, 6, 205);
+}
 /* header */
 
 .header_wrapper {
@@ -188,7 +210,7 @@ a {
   z-index: 1;
 }
 
-.header_wrapper video {
+.header_wrapper_gif {
   position: absolute;
   width: 100%;
   top: 160px;
@@ -1066,6 +1088,8 @@ a {
   justify-content: center;
   position: relative;
   width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .goahead_bg_left {
@@ -1500,6 +1524,7 @@ a {
   align-items: start;
   justify-content: space-between;
   margin-bottom: 40px;
+  position: relative;
 }
 .token_details_top_card {
   width: 50%;
@@ -1960,6 +1985,9 @@ a {
 .faq_actions a {
   color: rgb(107, 52, 250);
 }
+.faq_actions a:hover {
+  text-decoration: underline;
+}
 
 .faq {
   position: relative;
@@ -2113,7 +2141,9 @@ a {
   letter-spacing: 0%;
   text-align: center;
 }
-
+.phone_contact a:hover {
+  text-decoration: underline;
+}
 .footer_bottom {
   box-sizing: border-box;
   border-left: 1px solid rgb(25, 30, 56);
@@ -2447,4 +2477,11 @@ footer {
 }
 .roadmaps_questions a {
   color: rgb(101, 48, 255);
+}
+.roadmaps_questions a:hover {
+  text-decoration: underline;
+}
+
+.main_nav_list p {
+  cursor: pointer;
 }
