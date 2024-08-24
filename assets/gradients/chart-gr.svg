@@ -1,0 +1,39 @@
+<svg width="430.000000" height="621.000000" viewBox="0 0 430 621" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<linearGradient x1="407.506714" y1="247.500015" x2="407.506714" y2="35.499985" id="paint_linear_2090_1595_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#060A23"/>
+			<stop offset="1.000000" stop-color="#652FFF"/>
+		</linearGradient>
+		<linearGradient x1="-44.500008" y1="188.500000" x2="360.000000" y2="188.500000" id="paint_linear_2090_1596_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#652FFF" stop-opacity="0.000000"/>
+			<stop offset="1.000000" stop-color="#652FFF"/>
+		</linearGradient>
+		<linearGradient x1="360.000000" y1="3.000000" x2="360.000000" y2="258.000000" id="paint_linear_2090_1599_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#652FFF" stop-opacity="0.000000"/>
+			<stop offset="0.540000" stop-color="#652FFF"/>
+			<stop offset="1.000000" stop-color="#652FFF" stop-opacity="0.000000"/>
+		</linearGradient>
+	</defs>
+	<mask id="mask2090_1592" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="0.000000" width="430.000000" height="621.000000">
+		<rect id="Rectangle 40401" rx="27.000000" width="430.000000" height="621.000000" fill="#060A23" fill-opacity="1.000000"/>
+	</mask>
+	<g mask="url(#mask2090_1592)">
+		<g opacity="0.300000">
+			<path id="Path 7" d="M-118 269.87C-118 269.87 -83.12 261.25 -54.28 261.25C-25.44 261.25 -6.92 269.87 10.38 269.87C27.68 269.87 78.12 218.49 114.22 188.65C150.33 158.81 153.44 155.73 189.91 146.94C226.37 138.16 219.7 134.13 256 134.13C292.3 134.13 327.54 134.39 345.3 119.51C363.07 104.63 359.35 113.02 359.35 113.02L359.35 336L-118 336L-118 269.87Z" fill="url(#paint_linear_2090_1595_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+			<path id="Path 7" d="M-54.28 261.25C-25.44 261.25 -6.92 269.87 10.38 269.87C27.68 269.87 78.12 218.49 114.22 188.65C150.33 158.81 153.44 155.73 189.91 146.94C226.37 138.16 219.7 134.13 256 134.13C292.3 134.13 327.54 134.39 345.3 119.51C363.07 104.63 359.35 113.02 359.35 113.02L359.35 336L-118 336L-118 269.87C-118 269.87 -83.12 261.25 -54.28 261.25Z" stroke="#979797" stroke-opacity="0" stroke-width="1.000000"/>
+		</g>
+		<path id="Path 6" d="" fill="#D8D8D8" fill-opacity="0" fill-rule="nonzero"/>
+		<path id="Path 6" d="M-118 267C-118 267 -83.12 258.53 -54.28 258.53C-25.44 258.53 -6.92 267 10.38 267C27.68 267 78.12 216.53 114.22 187.23C150.33 157.93 153.44 154.91 189.91 146.28C226.37 137.65 219.7 133.7 256 133.7C292.3 133.7 327.54 133.95 345.3 119.34C363.07 104.73 359.35 112.96 359.35 112.96" stroke="url(#paint_linear_2090_1596_0)" stroke-opacity="1.000000" stroke-width="1.000000"/>
+		<path id="Path 8" d="" fill="#D8D8D8" fill-opacity="0" fill-rule="nonzero"/>
+		<path id="Path 8" d="M364 110C364 110 403.24 96.11 430.61 79.99C457.99 63.87 495.21 34.85 511.9 21.23C528.59 7.61 548.5 1.7 574.19 -5.37C599.88 -12.44 607 -15 607 -15" stroke="#652FFF" stroke-opacity="1.000000" stroke-width="1.000000" stroke-dasharray="5"/>
+		<path id="Line 3" d="M360 257.59L359.99 258.11L358.99 258.11L359 257.59L360 257.59ZM359.5 3.11L359.5 2.59L360.5 2.59L360.5 3.11L359.5 3.11Z" fill="#D8D8D8" fill-opacity="0" fill-rule="nonzero"/>
+		<path id="Line 3" d="M359.5 257.61L360 3.09" stroke="url(#paint_linear_2090_1599_0)" stroke-opacity="1.000000" stroke-width="1.000000" stroke-linecap="square"/>
+		<circle id="Oval " cx="360.000000" cy="114.000000" r="10.000000" fill="#652FFF" fill-opacity="1.000000"/>
+		<circle id="Oval " cx="360.000000" cy="114.000000" r="10.000000" stroke="#979797" stroke-opacity="0" stroke-width="1.000000"/>
+		<circle id="Oval " cx="360.000000" cy="114.000000" r="5.000000" fill="#E5E5E8" fill-opacity="1.000000"/>
+		<circle id="Oval " cx="360.000000" cy="114.000000" r="5.000000" stroke="#979797" stroke-opacity="0" stroke-width="1.000000"/>
+	</g>
+</svg>
