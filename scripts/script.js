@@ -1,3 +1,4 @@
+// faq sliders
 document.addEventListener("DOMContentLoaded", function () {
   const faqItems = document.querySelectorAll(".faq_item");
 
@@ -17,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// scroll navigation
 document.addEventListener("DOMContentLoaded", () => {
   const scrollToBlock = (buttonId, blockId) => {
     const button = document.getElementById(buttonId);

@@ -46,16 +46,21 @@
 
       <header>
         <div class="header_wrapper container">
-          <img
-            class="header_left_icon"
-            src="./assets/icons/header-left-icon.png"
-            alt=""
-          />
-          <img
-            class="header_right_icon"
-            src="./assets/icons/header-right-icon.svg"
-            alt=""
-          />
+          <div class="parallax parallax_element">
+            <img
+              class="header_left_icon"
+              src="./assets/icons/header-left-icon.png"
+              alt=""
+            />
+          </div>
+          <div class="parallax2 parallax_element">
+            <img
+              class="header_right_icon"
+              src="./assets/icons/header-right-icon.png"
+              alt=""
+            />
+          </div>
+
           <img
             class="header_cube"
             src="./assets/gradients/header-cube.svg"
@@ -67,7 +72,7 @@
 
           <img class="header_wrapper_gif" src="./assets/gifs/gif.png" alt="" />
           <div class="loved_investm">
-            <img src="./assets/icons/loved.svg" alt="" />
+            <img src="./assets/icons/loved.png" alt="" />
             <p>we are Loved by 100,000+ investments</p>
           </div>
           <div class="header_wrapper_content">
@@ -171,16 +176,20 @@
             </div>
 
             <div class="why_choose_block">
-              <img
-                class="why_choose_left"
-                src="./assets/icons/why-choose-left.png"
-                alt=""
-              />
-              <img
-                class="why_choose_right"
-                src="./assets/icons/why-choose-right.png"
-                alt=""
-              />
+              <div class="parallax3 parallax_element">
+                <img
+                  class="why_choose_left"
+                  src="./assets/icons/why-choose-left.png"
+                  alt=""
+                />
+              </div>
+              <div class="parallax4 parallax_element">
+                <img
+                  class="why_choose_right"
+                  src="./assets/icons/why-choose-right.png"
+                  alt=""
+                />
+              </div>
               <img
                 class="why_choose_bg"
                 src="./assets/gradients/why-choose-bg.svg"
@@ -242,7 +251,7 @@
         </div>
       </header>
 
-      <div class="overviews_block">
+      <div class="overviews_block" id="about-us">
         <div class="overviews_wrapper container">
           <div class="overviews_wrapper_left">
             <div class="overviews_top_card">
@@ -261,7 +270,7 @@
                 for trader growth.
               </p>
               <div class="overview_arrow">
-                <img src="./assets/icons/overview-arrow.svg" alt="" />
+                <img src="./assets/icons/overview-arrow.png" alt="" />
               </div>
               <img
                 class="overview_card_bg"
@@ -304,7 +313,7 @@
               </div>
             </div>
           </div>
-          <div class="overviews_wrapper_right" id="about-us">
+          <div class="overviews_wrapper_right">
             <div class="overviews_wrapper_right_top">
               <div class="overviews_wrapper_right_main_text">
                 <h2>Company Overview</h2>
@@ -1064,16 +1073,21 @@
           alt=""
         />
         <div class="roadmap_wrapper">
-          <img
-            class="roadmap_icon_1"
-            src="./assets/images/roadmap-icon-1.png"
-            alt=""
-          />
-          <img
-            class="roadmap_icon_2"
-            src="./assets/images/roadmap-icon-2.png"
-            alt=""
-          />
+          <div class="parallax5 parallax_element">
+            <img
+              class="roadmap_icon_1"
+              src="./assets/images/roadmap-icon-1.png"
+              alt=""
+            />
+          </div>
+          <div class="parallax6 parallax_element">
+            <img
+              class="roadmap_icon_2"
+              src="./assets/images/roadmap-icon-2.png"
+              alt=""
+            />
+          </div>
+
           <div class="roadmap_wrapper_title">
             <h4>
               Traders.io Development and <br />
@@ -1561,6 +1575,7 @@
 
     <!-- scripts -->
     <script src="./scripts/script.js"></script>
+    <script src="./scripts/parallax.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
       var swiper = new Swiper(".support_carousel", {
