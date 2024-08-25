@@ -1,0 +1,192 @@
+@import url(./style.css);
+
+.login_page {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.login_page_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.login_wrapper_top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.login_wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 672px;
+  box-sizing: border-box;
+  border: 1px solid rgb(25, 30, 56);
+  border-radius: 28px;
+
+  box-shadow: inset 0px 0px 41.7px 0px rgba(25, 30, 56, 0.4);
+  background: rgb(6, 10, 35);
+  padding: 52px 60px 42px;
+  overflow: hidden;
+  margin-top: 112px;
+}
+
+.login_wrapper_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 47px;
+  position: relative;
+}
+.login_wrapper_title h2 {
+  color: rgb(229, 229, 232);
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 117%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 28px 0 12px;
+}
+
+.login_wrapper_title p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 143%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgb(198, 198, 215);
+}
+
+.login_wrapper_title a {
+  color: rgb(101, 47, 255);
+}
+.login_wrapper_title a:hover {
+  text-decoration: underline;
+}
+.login_form_item {
+  position: relative;
+  margin-bottom: 21px;
+}
+.login_form_item p {
+  color: rgb(229, 229, 232);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 117%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 11px;
+}
+
+.login_form_item input {
+  box-sizing: border-box;
+  border: 1px solid rgb(36, 41, 68);
+  border-radius: 11px;
+  width: 100%;
+  height: 52px;
+  background: transparent;
+  color: rgb(229, 229, 232);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 117%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-indent: 18px;
+}
+.login_form_item input::placeholder {
+  color: rgb(80, 88, 128);
+  font-family: Inter;
+}
+
+.login_form_item p span {
+  color: rgb(164, 172, 212);
+}
+
+.login_form .main_btn {
+  width: 100%;
+  margin-top: 17px;
+}
+.birth_phone {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.birth_phone .login_form_item {
+  width: 50%;
+}
+
+.captcha_generator {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 14px;
+  bottom: 14px;
+  gap: 11px;
+}
+.captcha_generator img {
+  cursor: pointer;
+}
+.captcha_generator p {
+  margin: 0;
+
+  color: rgb(229, 229, 232);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 117%;
+  letter-spacing: 10%;
+  text-align: left;
+}
+.reserved_login_right {
+  position: relative;
+  margin-top: 36px;
+  margin-bottom: 100px;
+}
+.reserved_login_right p {
+  color: rgb(80, 88, 128);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 143%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.forgot_password p {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 117%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgb(164, 172, 213);
+  margin-top: 30px;
+}
+
+.forgot_password a {
+  color: rgb(229, 229, 232);
+}
+.forgot_password a:hover {
+  text-decoration: underline;
+}
+
+.login_form_page {
+    max-width: 528px;
+    padding: 52px 57px 32px;
+}
+
+.reset_pass_page {
+    max-width: 414px;
+    width: 100%;
+}
