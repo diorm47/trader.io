@@ -30,7 +30,7 @@
         >
         <div class="d_nav_list">
           <a href="./dashboard.html">
-            <div class="d_nav_item d_nav_item_active">
+            <div class="d_nav_item">
               <div class="d_nav_item_title">
                 <svg
                   width="18.000000"
@@ -240,7 +240,7 @@
               <img src="./assets/icons/notification.svg" alt="" /></div
           ></a>
 
-          <div class="d_nav_item d_nav_item_settings">
+          <div class="d_nav_item d_nav_item_settings d_nav_item_active">
             <a href="./settings.html">
               <div class="d_nav_item_title">
                 <svg
@@ -297,13 +297,13 @@
     </div>
     <div class="settings_wrapper container">
       <div class="dashboard_tab_titles">
-        <div class="dashboard_tab_title" data-tab="profile">
-          <p>Profile</p>
-        </div>
         <div
           class="dashboard_tab_title active_dashboard_tab_title"
-          data-tab="security"
+          data-tab="profile"
         >
+          <p>Profile</p>
+        </div>
+        <div class="dashboard_tab_title" data-tab="security">
           <p>Security</p>
         </div>
         <div class="dashboard_tab_title" data-tab="kyc">
@@ -498,12 +498,60 @@
           <button class="main_btn">Activete 2FA</button>
         </div>
         <div class="dashboard_line"></div>
+        <div class="dashboard_page_blocks_title">
+          <h4>Your Sessions</h4>
+          <p>Lorem ipsum dolor sit amet consectetur. Ultrices id risus.</p>
+        </div>
+        <div class="sessions_list">
+          <div class="session_item">
+            <div class="session_item_left">
+              <div class="session_item_browser">
+                <div class="session_item_browser_icon">
+                  <img src="./assets/icons/chrome.svg" alt="" />
+                </div>
+                <div class="session_item_browser_desc">
+                  <h4>Chrome</h4>
+                  <span>on iPhone 14 Pro</span>
+                </div>
+              </div>
+              <div class="session_item_ip">
+                <p>IP: 84.139.81.777</p>
+                <span>Signed in May 21, 2024</span>
+              </div>
+            </div>
+            <button class="revoke_btn">Revoke</button>
+          </div>
+          <div class="session_item">
+            <div class="session_item_left">
+              <div class="session_item_browser">
+                <div class="session_item_browser_icon">
+                  <img src="./assets/icons/safari.svg" alt="" />
+                </div>
+                <div class="session_item_browser_desc">
+                  <h4>Safari</h4>
+                  <span>on Macbook Pro</span>
+                </div>
+              </div>
+              <div class="session_item_ip">
+                <p>IP: 84.139.81.777</p>
+                <span>Signed in May 21, 2024</span>
+              </div>
+            </div>
+            <button class="revoke_btn">Revoke</button>
+          </div>
+        </div>
       </div>
 
       <!--  -->
       <div class="dashboard_tab_content" id="kyc">KYC/AML Verification</div>
     </div>
-
+    <footer class="d_footer">
+      <div class="d_footer_wrapper container">
+        <div class="reserved_rights">
+          <p>© 2024 Traders.io All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
     <!-- scripts -->
     <script src="./scripts/dashboard.js"></script>
   </body>
