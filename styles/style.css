@@ -68,7 +68,6 @@ a {
   margin: 0 5px;
 }
 
-
 .faq_items {
   margin-top: 56px;
   padding-bottom: 10px;
@@ -124,4 +123,29 @@ a {
 }
 .show_more {
   cursor: pointer;
+}
+.btn_hover,
+.selection_item_answer,
+.faq_item_title img,
+.notification_list_item_action img,
+.dashboard_input_edit {
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.btn_hover:hover,
+.faq_item_title img:hover,
+.notification_list_item_action img:hover,
+.dashboard_input_edit:hover {
+  transition: all 0.4s ease;
+  opacity: 0.7;
+}
+
+.selection_item_answer:hover {
+  box-sizing: border-box;
+  border: 1px solid rgb(53, 176, 22);
+  border-radius: 9px;
+  transition: all 0.4s ease;
+
+  background: rgba(53, 176, 22, 0.1);
 }

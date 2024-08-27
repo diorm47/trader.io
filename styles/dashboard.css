@@ -709,6 +709,7 @@
   border-radius: 9px;
   border: 1px solid transparent;
   cursor: pointer;
+  transition: all 0.4s ease;
 }
 
 .dashboard_tab_title p {
@@ -719,6 +720,9 @@
   line-height: 143%;
   letter-spacing: 0%;
   text-align: center;
+}
+.dashboard_tab_title:hover {
+  border: 1px solid rgb(25, 30, 56);
 }
 
 .active_dashboard_tab_title {
@@ -1134,6 +1138,11 @@
   border-radius: 11px;
   padding: 15px;
   width: 25%;
+  transition: all 0.4s ease;
+}
+.payment_method:hover {
+  border: 1px solid rgb(107, 52, 250);
+  transition: all 0.4s ease;
 }
 .payment_method p {
   color: rgb(245, 242, 252);
@@ -1404,6 +1413,7 @@
   border-radius: 9px;
   padding: 7px 13px;
   cursor: pointer;
+  transition: all 0.4s ease;
 }
 
 .list_table_filter p {
@@ -1412,8 +1422,18 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 143%;
+  transition: all 0.4s ease;
   letter-spacing: 0%;
   text-align: left;
+}
+.list_table_filter:hover  {
+  transition: all 0.4s ease;
+  color: #fff;
+  border: 0.5px solid rgb(107, 52, 250);
+}
+.list_table_filter:hover p {
+  transition: all 0.4s ease;
+  color: #fff;
 }
 
 .list_table_filter_active {
@@ -1529,6 +1549,10 @@
   line-height: 117%;
   letter-spacing: 0%;
   text-align: center;
+  transition: all 0.4s;
+}
+.list_table_pagination_item:hover p {
+  color: #fff;
 }
 
 .export_data {
