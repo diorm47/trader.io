@@ -326,10 +326,7 @@
 
     <div class="d_page_wrapper container">
       <div class="dashboard_tab_titles">
-        <div
-          class="dashboard_tab_title active_dashboard_tab_title"
-          data-tab="add-funds"
-        >
+        <div class="dashboard_tab_title" data-tab="add-funds">
           <p>Add Funds</p>
         </div>
         <div class="dashboard_tab_title" data-tab="deposits">
@@ -338,7 +335,10 @@
         <div class="dashboard_tab_title" data-tab="withdrawals">
           <p>Withdrawals</p>
         </div>
-        <div class="dashboard_tab_title" data-tab="transactions">
+        <div
+          class="dashboard_tab_title active_dashboard_tab_title"
+          data-tab="transactions"
+        >
           <p>Transaction History</p>
         </div>
       </div>
@@ -521,6 +521,352 @@
       <div class="dashboard_tab_content" id="transactions">
         <div class="dashboard_title">
           <h1>Transaction History</h1>
+        </div>
+
+        <div class="list_table">
+          <div class="list_table_filters">
+            <div class="list_table_filter list_table_filter_active">
+              <p>All Transaction</p>
+            </div>
+            <div class="list_table_filter"><p>Deposit</p></div>
+            <div class="list_table_filter"><p>Withdrawal</p></div>
+            <div class="list_table_filter"><p>Transfer</p></div>
+          </div>
+          <table class="transaction_table">
+            <thead>
+              <tr>
+                <td>Type</td>
+                <td>Date</td>
+                <td>Method</td>
+                <td>Amount</td>
+                <td>Status</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><p class="main_table_text">Deposits</p></td>
+                <td><p class="main_table_text">21 Jun 2024</p></td>
+                <td>
+                  <div class="transactions_list_item_left">
+                    <div class="transactions_list_item_icon">
+                      <img src="./assets/icons/payment/debt.svg" alt="" />
+                    </div>
+                    <div class="transactions_list_item_desc">
+                      <div class="transactions_list_item_desc_title">
+                        <h5>Debit / Credit Card</h5>
+                      </div>
+                      <div class="transactions_list_item_desc_data">
+                        <p>Card: 1111 2222 3333 4444</p>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <p class="main_table_text succes"><span>+</span> $250</p>
+                </td>
+                <td>
+                  <div
+                    class="transactions_list_item_status transactions_list_item_status_succes"
+                  >
+                    <svg
+                      width="10.000000"
+                      height="10.000000"
+                      viewBox="0 0 10 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <desc>Created with Pixso.</desc>
+                      <defs></defs>
+                      <path
+                        id="Vector"
+                        d="M5 0.83C2.7 0.83 0.83 2.7 0.83 5C0.83 7.3 2.7 9.16 5 9.16C7.3 9.16 9.16 7.3 9.16 5C9.16 2.7 7.3 0.83 5 0.83ZM5 6.04C4.42 6.04 3.95 5.57 3.95 5C3.95 4.42 4.42 3.95 5 3.95C5.57 3.95 6.04 4.42 6.04 5C6.04 5.57 5.57 6.04 5 6.04Z"
+                        fill="#35B016"
+                        fill-opacity="1.000000"
+                        fill-rule="nonzero"
+                      ></path>
+                      <g opacity="0.000000"></g>
+                    </svg>
+                    <p>Success</p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td><p class="main_table_text">Deposits</p></td>
+                <td><p class="main_table_text">21 Jun 2024</p></td>
+                <td>
+                  <div class="transactions_list_item_left">
+                    <div class="transactions_list_item_icon">
+                      <img src="./assets/icons/payment/debt.svg" alt="" />
+                    </div>
+                    <div class="transactions_list_item_desc">
+                      <div class="transactions_list_item_desc_title">
+                        <h5>Debit / Credit Card</h5>
+                      </div>
+                      <div class="transactions_list_item_desc_data">
+                        <p>Card: 1111 2222 3333 4444</p>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <p class="main_table_text succes"><span>+</span> $250</p>
+                </td>
+                <td>
+                  <div
+                    class="transactions_list_item_status transactions_list_item_status_progress"
+                  >
+                    <svg
+                      width="10.000000"
+                      height="10.000000"
+                      viewBox="0 0 10 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <desc>Created with Pixso.</desc>
+                      <defs></defs>
+                      <path
+                        id="Vector"
+                        d="M5 0.83C2.7 0.83 0.83 2.7 0.83 5C0.83 7.3 2.7 9.16 5 9.16C7.3 9.16 9.16 7.3 9.16 5C9.16 2.7 7.3 0.83 5 0.83ZM5 6.04C4.42 6.04 3.95 5.57 3.95 5C3.95 4.42 4.42 3.95 5 3.95C5.57 3.95 6.04 4.42 6.04 5C6.04 5.57 5.57 6.04 5 6.04Z"
+                        fill="#35B016"
+                        fill-opacity="1.000000"
+                        fill-rule="nonzero"
+                      ></path>
+                      <g opacity="0.000000"></g>
+                    </svg>
+                    <p>In progress</p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td><p class="main_table_text">Deposits</p></td>
+                <td><p class="main_table_text">21 Jun 2024</p></td>
+                <td>
+                  <div class="transactions_list_item_left">
+                    <div class="transactions_list_item_icon">
+                      <img src="./assets/icons/payment/debt.svg" alt="" />
+                    </div>
+                    <div class="transactions_list_item_desc">
+                      <div class="transactions_list_item_desc_title">
+                        <h5>Debit / Credit Card</h5>
+                      </div>
+                      <div class="transactions_list_item_desc_data">
+                        <p>Card: 1111 2222 3333 4444</p>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <p class="main_table_text failed"><span>+</span> $250</p>
+                </td>
+                <td>
+                  <div
+                    class="transactions_list_item_status transactions_list_item_status_failed"
+                  >
+                    <svg
+                      width="10.000000"
+                      height="10.000000"
+                      viewBox="0 0 10 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <desc>Created with Pixso.</desc>
+                      <defs></defs>
+                      <path
+                        id="Vector"
+                        d="M5 0.83C2.7 0.83 0.83 2.7 0.83 5C0.83 7.3 2.7 9.16 5 9.16C7.3 9.16 9.16 7.3 9.16 5C9.16 2.7 7.3 0.83 5 0.83ZM5 6.04C4.42 6.04 3.95 5.57 3.95 5C3.95 4.42 4.42 3.95 5 3.95C5.57 3.95 6.04 4.42 6.04 5C6.04 5.57 5.57 6.04 5 6.04Z"
+                        fill="#35B016"
+                        fill-opacity="1.000000"
+                        fill-rule="nonzero"
+                      ></path>
+                      <g opacity="0.000000"></g>
+                    </svg>
+                    <p>Failed</p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td><p class="main_table_text">Deposits</p></td>
+                <td><p class="main_table_text">21 Jun 2024</p></td>
+                <td>
+                  <div class="transactions_list_item_left">
+                    <div class="transactions_list_item_icon">
+                      <img src="./assets/icons/payment/debt.svg" alt="" />
+                    </div>
+                    <div class="transactions_list_item_desc">
+                      <div class="transactions_list_item_desc_title">
+                        <h5>Debit / Credit Card</h5>
+                      </div>
+                      <div class="transactions_list_item_desc_data">
+                        <p>Card: 1111 2222 3333 4444</p>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <p class="main_table_text succes"><span>+</span> $250</p>
+                </td>
+                <td>
+                  <div
+                    class="transactions_list_item_status transactions_list_item_status_succes"
+                  >
+                    <svg
+                      width="10.000000"
+                      height="10.000000"
+                      viewBox="0 0 10 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <desc>Created with Pixso.</desc>
+                      <defs></defs>
+                      <path
+                        id="Vector"
+                        d="M5 0.83C2.7 0.83 0.83 2.7 0.83 5C0.83 7.3 2.7 9.16 5 9.16C7.3 9.16 9.16 7.3 9.16 5C9.16 2.7 7.3 0.83 5 0.83ZM5 6.04C4.42 6.04 3.95 5.57 3.95 5C3.95 4.42 4.42 3.95 5 3.95C5.57 3.95 6.04 4.42 6.04 5C6.04 5.57 5.57 6.04 5 6.04Z"
+                        fill="#35B016"
+                        fill-opacity="1.000000"
+                        fill-rule="nonzero"
+                      ></path>
+                      <g opacity="0.000000"></g>
+                    </svg>
+                    <p>Success</p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td><p class="main_table_text">Deposits</p></td>
+                <td><p class="main_table_text">21 Jun 2024</p></td>
+                <td>
+                  <div class="transactions_list_item_left">
+                    <div class="transactions_list_item_icon">
+                      <img src="./assets/icons/payment/debt.svg" alt="" />
+                    </div>
+                    <div class="transactions_list_item_desc">
+                      <div class="transactions_list_item_desc_title">
+                        <h5>Debit / Credit Card</h5>
+                      </div>
+                      <div class="transactions_list_item_desc_data">
+                        <p>Card: 1111 2222 3333 4444</p>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <p class="main_table_text succes"><span>+</span> $250</p>
+                </td>
+                <td>
+                  <div
+                    class="transactions_list_item_status transactions_list_item_status_progress"
+                  >
+                    <svg
+                      width="10.000000"
+                      height="10.000000"
+                      viewBox="0 0 10 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <desc>Created with Pixso.</desc>
+                      <defs></defs>
+                      <path
+                        id="Vector"
+                        d="M5 0.83C2.7 0.83 0.83 2.7 0.83 5C0.83 7.3 2.7 9.16 5 9.16C7.3 9.16 9.16 7.3 9.16 5C9.16 2.7 7.3 0.83 5 0.83ZM5 6.04C4.42 6.04 3.95 5.57 3.95 5C3.95 4.42 4.42 3.95 5 3.95C5.57 3.95 6.04 4.42 6.04 5C6.04 5.57 5.57 6.04 5 6.04Z"
+                        fill="#35B016"
+                        fill-opacity="1.000000"
+                        fill-rule="nonzero"
+                      ></path>
+                      <g opacity="0.000000"></g>
+                    </svg>
+                    <p>In progress</p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td><p class="main_table_text">Deposits</p></td>
+                <td><p class="main_table_text">21 Jun 2024</p></td>
+                <td>
+                  <div class="transactions_list_item_left">
+                    <div class="transactions_list_item_icon">
+                      <img src="./assets/icons/payment/debt.svg" alt="" />
+                    </div>
+                    <div class="transactions_list_item_desc">
+                      <div class="transactions_list_item_desc_title">
+                        <h5>Debit / Credit Card</h5>
+                      </div>
+                      <div class="transactions_list_item_desc_data">
+                        <p>Card: 1111 2222 3333 4444</p>
+                      </div>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <p class="main_table_text failed"><span>+</span> $250</p>
+                </td>
+                <td>
+                  <div
+                    class="transactions_list_item_status transactions_list_item_status_failed"
+                  >
+                    <svg
+                      width="10.000000"
+                      height="10.000000"
+                      viewBox="0 0 10 10"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                    >
+                      <desc>Created with Pixso.</desc>
+                      <defs></defs>
+                      <path
+                        id="Vector"
+                        d="M5 0.83C2.7 0.83 0.83 2.7 0.83 5C0.83 7.3 2.7 9.16 5 9.16C7.3 9.16 9.16 7.3 9.16 5C9.16 2.7 7.3 0.83 5 0.83ZM5 6.04C4.42 6.04 3.95 5.57 3.95 5C3.95 4.42 4.42 3.95 5 3.95C5.57 3.95 6.04 4.42 6.04 5C6.04 5.57 5.57 6.04 5 6.04Z"
+                        fill="#35B016"
+                        fill-opacity="1.000000"
+                        fill-rule="nonzero"
+                      ></path>
+                      <g opacity="0.000000"></g>
+                    </svg>
+                    <p>Failed</p>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="list_table_pagination">
+            <div class="list_table_pagination_wrapper">
+              <div class="list_table_pagination_item">
+                <img src="./assets/icons/pag-left-arrow.svg" alt="" />
+              </div>
+              <div class="list_table_pagination_item">
+                <p>1</p>
+              </div>
+              <div class="list_table_pagination_item">
+                <p>2</p>
+              </div>
+              <div class="list_table_pagination_item">
+                <p>3</p>
+              </div>
+              <div class="list_table_pagination_item">
+                <p>4</p>
+              </div>
+              <div class="list_table_pagination_item">
+                <p>...</p>
+              </div>
+              <div class="list_table_pagination_item">
+                <p>9</p>
+              </div>
+              <div class="list_table_pagination_item">
+                <img src="./assets/icons/pag-right-arr.svg" alt="" />
+              </div>
+            </div>
+            <div class="export_data">
+              <p>Export:</p>
+              <span>PDF</span>
+              <div></div>
+              <span>CSV</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>

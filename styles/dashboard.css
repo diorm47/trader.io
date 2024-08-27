@@ -779,7 +779,8 @@
   margin-bottom: 11px;
 }
 
-.dashboard_input input {
+.dashboard_input input,
+.dashboard_input textarea {
   box-sizing: border-box;
   border: 1px solid rgb(36, 41, 68);
   border-radius: 11px;
@@ -796,7 +797,8 @@
   width: 100%;
 }
 
-.dashboard_input input::placeholder {
+.dashboard_input input::placeholder,
+.dashboard_input textarea::placeholder {
   color: rgb(80, 88, 128);
 }
 
@@ -1220,4 +1222,402 @@
   letter-spacing: 0%;
   text-align: center;
   margin-left: -32px;
+}
+
+.support_chat_wrapper {
+  box-sizing: border-box;
+  border: 1px solid rgb(36, 41, 68);
+  border-radius: 11px;
+  margin-bottom: 42px;
+  display: flex;
+  align-items: center;
+}
+.support_chat_users {
+  width: 25%;
+  border-right: 1px solid rgb(36, 41, 68);
+  padding: 16px 12px;
+}
+.support_chat_user {
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(36, 41, 68);
+  cursor: pointer;
+  padding: 23px;
+}
+.support_chat_users .support_chat_user:last-child {
+  border-bottom: none;
+}
+.support_chat_user_active {
+  border-left: 1px solid rgb(25, 30, 56);
+  border-right: 1px solid rgb(25, 30, 56);
+  border-radius: 9px;
+  border-bottom: none;
+}
+
+.support_chat_user_data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 13px;
+}
+
+.support_chat_user_profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.support_chat_user_profile p {
+  color: rgb(245, 242, 252);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 143%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.support_chat_user_profile span {
+  color: rgb(80, 88, 128);
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 143%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.mess_time p {
+  color: rgb(80, 88, 128);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 143%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.support_chat_user_mess p {
+  color: rgb(198, 198, 215);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 143%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.support_chat_area {
+  width: 75%;
+  position: relative;
+  padding: 5px;
+  height: 600px;
+}
+.support_chat_area_input {
+  position: absolute;
+  bottom: 5px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.support_chat_area_input input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgb(25, 30, 56);
+  border-radius: 9px;
+  height: 51px;
+  box-shadow: inset 0px 0px 41.7px 0px rgba(25, 30, 56, 0.4);
+  background: rgb(6, 10, 35);
+  text-indent: 60px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 117%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.support_chat_area_input input::placeholder {
+  color: rgb(80, 88, 128);
+}
+
+.support_chat_area_input .d_nav_user_avatar {
+  position: absolute;
+  left: 10px;
+}
+.icon_d_block_title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+.icon_d_block_title .dashboard_page_blocks_title {
+  margin: 0;
+}
+
+.support_faq_email {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 48px;
+}
+.support_faq,
+.support_email {
+  width: 50%;
+}
+.support_email .dashboard_input {
+  margin-bottom: 27px;
+}
+
+.dashboard_input textarea {
+  outline: none;
+  padding-top: 18px;
+  height: 135px;
+}
+.support_faq .faq_item {
+  padding: 28px 32px;
+}
+.support_faq_email .show_more {
+  margin-top: 37px;
+}
+.support_faq_email .main_btn {
+  margin-top: 10px;
+  padding: 0;
+  width: 120px;
+  height: 52px;
+}
+
+.list_table {
+  box-sizing: border-box;
+  border: 1px solid rgb(36, 41, 68);
+  border-radius: 11px;
+  padding: 5px;
+  padding-top: 15px;
+}
+
+.list_table_filters {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-left: 17px;
+}
+.list_table_filter {
+  border: 0.5px solid transparent;
+  border-radius: 9px;
+  padding: 7px 13px;
+  cursor: pointer;
+}
+
+.list_table_filter p {
+  color: rgb(63, 69, 103);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 143%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.list_table_filter_active {
+  box-sizing: border-box;
+  border: 0.5px solid rgb(107, 52, 250);
+  border-radius: 9px;
+
+  box-shadow: inset 0px 0px 5.5px 0px rgb(138, 81, 230);
+  background: rgba(107, 52, 250, 0.1);
+}
+.list_table_filter_active p {
+  color: #fff;
+}
+
+.notification_list_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.notification_list_item:hover {
+  transition: all 0.4s ease;
+
+  border: 1px solid rgb(25, 30, 56);
+
+  box-shadow: inset 0px 0px 41.7px 0px rgba(25, 30, 56, 0.4);
+  background: rgb(6, 10, 35);
+}
+
+.notification_list_item_data {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.notification_list_item_data_icon {
+  width: 49px;
+  height: 49px;
+  box-sizing: border-box;
+  border: 1px solid rgb(36, 41, 68);
+  border-radius: 24.5px;
+
+  box-shadow: inset 0px 0px 41.7px 0px rgba(25, 30, 56, 0.4);
+  background: linear-gradient(
+    180deg,
+    rgb(6, 10, 35) 41.975%,
+    rgb(6, 10, 35) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notification_list_item_data p {
+  color: rgb(245, 242, 252);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 117%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.notification_list_item_data span {
+  color: rgb(80, 88, 128);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 117%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.list_table_pagination {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgb(25, 30, 56);
+  border-radius: 2px 2px 9px 9px;
+
+  box-shadow: inset 0px 0px 41.7px 0px rgba(25, 30, 56, 0.4);
+  background: rgb(6, 10, 35);
+  height: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+.list_table_pagination_wrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.list_table_pagination_item {
+  border-right: 1px solid rgb(25, 30, 56);
+  height: 100%;
+  width: 52px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list_table_pagination_item p {
+  color: rgb(80, 88, 128);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 117%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.export_data {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding-right: 16px;
+}
+
+.export_data p,
+.export_data span {
+  color: rgb(198, 198, 215);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 143%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.export_data span {
+  color: rgb(102, 48, 254);
+  cursor: pointer;
+}
+.export_data div {
+  background: rgb(36, 41, 68);
+  width: 4px;
+  height: 4px;
+  border-radius: 100%;
+}
+
+.transaction_table {
+  width: 100%;
+}
+.transaction_table thead {
+  box-sizing: border-box;
+  border: 1px solid rgb(25, 30, 56);
+  border-radius: 9px 9px 2px 2px;
+  margin-bottom: 4px;
+  box-shadow: inset 0px 0px 41.7px 0px rgba(25, 30, 56, 0.4);
+  background: rgb(6, 10, 35);
+}
+.transaction_table thead td {
+  color: rgb(80, 88, 128);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 117%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 16px 0;
+}
+.transaction_table thead td:first-child,
+.transaction_table tbody tr td:first-child {
+  padding-left: 17px;
+}
+.transaction_table tbody .main_table_text {
+  color: rgb(245, 242, 252);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 117%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.transaction_table tbody tr {
+  box-sizing: border-box;
+  border-left: 1px solid rgb(25, 30, 56);
+  border-right: 1px solid rgb(25, 30, 56);
+  border-radius: 2px;
+  padding: 22px 0;
+  box-shadow: inset 0px 0px 41.7px 0px rgba(25, 30, 56, 0.4);
+  background: rgb(6, 10, 35);
+}
+.transaction_table tbody tr {
+  height: 85px;
+}
+
+.transaction_table .transactions_list_item_status_succes {
+  width: 91px;
+}
+.transaction_table .transactions_list_item_left {
+  width: 250px;
+}
+.transaction_table tbody tr td:nth-child(3) {
+  width: 30%;
+}
+.transaction_table .transactions_list_item_status_progress {
+  width: 114px;
+}
+.transaction_table .transactions_list_item_status_failed {
+  width: 73px;
 }
