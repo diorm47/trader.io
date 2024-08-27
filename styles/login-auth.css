@@ -182,11 +182,62 @@
 }
 
 .login_form_page {
-    max-width: 528px;
-    padding: 52px 57px 32px;
+  max-width: 528px;
+  padding: 52px 57px 32px;
 }
 
 .reset_pass_page {
-    max-width: 414px;
+  max-width: 414px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 720px) {
+  .login_page {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .login_wrapper {
+    margin: 50px 0;
+    padding: 20px;
+  }
+  .reserved_login_right {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .login_wrapper_title h2 {
+    font-size: 20px;
+    margin: 15px 0 10px;
+  }
+  .login_wrapper_title p {
+    font-size: 12px;
+  }
+  .login_wrapper_title {
+    margin-bottom: 25px;
+  }
+  .login_wrapper_title img {
+    width: 40px;
+    height: 40px;
+  }
+  .login_form_item input {
+    height: 40px;
+  }
+  .login_form_item p {
+    font-size: 12px;
+  }
+  .birth_phone {
+    flex-direction: column;
+    gap: 0;
+  }
+  .birth_phone .login_form_item {
     width: 100%;
+  }
+  .captcha_generator {
+    bottom: 8px;
+  }
+  .main_btn {
+    padding: 10px 15px;
+  }
 }

@@ -631,8 +631,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
 }
 .dashboard_action_item_text {
   position: relative;
@@ -1426,7 +1424,7 @@
   letter-spacing: 0%;
   text-align: left;
 }
-.list_table_filter:hover  {
+.list_table_filter:hover {
   transition: all 0.4s ease;
   color: #fff;
   border: 0.5px solid rgb(107, 52, 250);
@@ -1644,4 +1642,305 @@
 }
 .transaction_table .transactions_list_item_status_failed {
   width: 73px;
+}
+
+.dashboard_nav_bar {
+  overflow: hidden;
+}
+.dashboard_tab_titless {
+  width: 450px !important;
+}
+@media only screen and (max-width: 1320px) {
+  .d_nav_list,
+  .d_nav_right .d_nav_item_settings {
+    display: none;
+  }
+  .w_50per {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 1120px) {
+  .main_dashboard {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .dashboard_tab_titless {
+    width: 415px !important;
+  }
+  .main_dashboard_left,
+  .main_dashboard_right {
+    width: 100%;
+  }
+  .dashboard_action_item {
+    width: 47%;
+  }
+  .dashboard_actions .dashboard_action_item:nth-child(3) {
+    width: 100%;
+  }
+  .dashboard_actions {
+    flex-wrap: wrap;
+  }
+  .dashboard_action_item img {
+    width: 100%;
+  }
+  .selection_items_list {
+    flex-wrap: wrap;
+  }
+  .dashboard_tab_titles_wrapper {
+    width: 100%;
+    overflow: hidden;
+    overflow-x: auto;
+  }
+  .active_dashboard_tab_title {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .dashboard_tab_titles {
+    width: 970px;
+  }
+  .fo_page_wrapper .dashboard_tab_titles {
+    width: auto;
+  }
+
+  .payment_methods {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .payment_method {
+    width: 100%;
+  }
+  .support_faq_email {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .support_faq,
+  .support_email {
+    width: 100%;
+  }
+  .support_chat_users {
+    width: 40%;
+  }
+  .support_chat_area {
+    width: 60%;
+  }
+  .dashboard_s_tab_titles {
+    width: auto !important;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .card_details {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .card_details .dashboard_input,
+  .card_details_inputs {
+    width: 100%;
+  }
+  .dashboard_action_item {
+    width: 100%;
+  }
+  .total_balance {
+    flex-direction: column;
+    align-items: start;
+  }
+  .total_balance_actions button {
+    height: 50px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .recent_transactions,
+  .dashboard_action_item {
+    padding: 20px;
+  }
+  .dashboard_action_item {
+    min-height: 300px;
+  }
+  .dashboard_actions {
+    margin-top: 30px;
+    gap: 20px;
+  }
+  .d_footer {
+    margin-top: 40px;
+  }
+  .transactions_list_item_icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+  }
+  .transactions_list_item_left {
+    gap: 10px;
+  }
+  .transactions_list_item_desc_title h5,
+  .transactions_list_item_amount p {
+    font-size: 14px;
+    line-height: 100%;
+  }
+  .transactions_list_item_desc_data p {
+    font-size: 10px;
+  }
+  .transactions_list_item_status {
+    padding: 4px;
+    gap: 3px;
+  }
+  .rewards_block {
+    padding: 20px;
+  }
+  .dashboard_nav_wrapper a {
+    position: relative;
+  }
+  .selection_items_list {
+    flex-direction: column;
+  }
+  .selection_item {
+    width: 100% !important;
+  }
+  .fo_page_wrapper .dashboard_tab_titles {
+    width: 568px;
+  }
+  .payment_methods {
+    gap: 20px;
+  }
+  .list_table_wrapper {
+    overflow-x: auto;
+  }
+  .list_table_wrapper .list_table {
+    width: 740px;
+  }
+  .support_chat_wrapper {
+    flex-direction: column;
+    height: auto;
+  }
+  .support_chat_users,
+  .support_chat_area {
+    width: 100%;
+  }
+  .support_chat_area {
+    height: 200px;
+  }
+  .support_chat_area_input {
+    width: 98%;
+  }
+  .support_chat_user {
+    padding: 15px;
+  }
+  .notification_list_item {
+    padding: 10px;
+  }
+  .notification_list_item_data p {
+    font-size: 12px;
+  }
+  .list_table_not {
+    overflow-x: auto;
+  }
+  .list_table_not .list_table {
+    width: 475px;
+  }
+  .dashboard_inputs_list {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .dashboard_inputs_list .dashboard_input {
+    width: 100%;
+  }
+  .dashboard_tab_titless_w {
+    width: 100%;
+    overflow-x: auto;
+  }
+  .two_steps {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .two_step {
+    width: 100%;
+  }
+  .session_item_browser {
+    width: auto;
+    margin-right: 10px;
+  }
+  .d_logo div {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 400px) {
+  .transactions_list_item_status p {
+    font-size: 10px;
+  }
+  .total_balance_num p {
+    font-size: 40px;
+  }
+  .total_balance_actions button {
+    height: 40px;
+  }
+  .d_logo {
+    gap: 10px;
+  }
+  .dashboard_nav_bar {
+    padding: 20px 0;
+  }
+  .share_link {
+    margin-bottom: 20px;
+  }
+  .selection_items_list {
+    gap: 20px;
+  }
+  .save_changes {
+    margin-top: 30px;
+  }
+  .dashboard_title h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .dashboard_line {
+    margin: 20px 0;
+  }
+  .card_details_inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .dep_amount {
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+  .card_details_name {
+    width: 100%;
+  }
+  .secured {
+    margin-bottom: 18px;
+  }
+  .card_details_inputs input {
+    border-radius: 11px !important;
+  }
+  .payment_methods {
+    display: flex;
+    flex-direction: column;
+  }
+  .fmain_dashboard {
+    gap: 0 !important;
+  }
+  .dep_amount .main_btn {
+    width: 100%;
+  }
+  .view_status_btn {
+    margin: 0;
+    width: 100%;
+  }
+  .two_step {
+    padding: 20px;
+  }
+  .session_item,
+  .session_item_left {
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+  .revoke_btn {
+    padding: 10px 15px;
+  }
 }

@@ -2388,6 +2388,7 @@ footer {
   animation: smoothBounce 2s infinite;
 }
 
+
 @keyframes smoothBounce {
   0%,
   100% {
