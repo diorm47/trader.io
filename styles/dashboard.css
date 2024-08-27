@@ -1,11 +1,16 @@
 @import url(./style.css);
+body {
+  padding-top: 130px;
+}
 
 .dashboard_nav_bar {
   width: 100%;
-  position: relative;
+  position: fixed;
   padding: 28px 0;
   border-bottom: 1px solid rgb(21, 26, 52);
-  margin-bottom: 26px;
+  top: 0;
+  background: #060a23;
+  z-index: 10;
 }
 
 .d_logo {
@@ -1797,7 +1802,7 @@
     width: 100% !important;
   }
   .fo_page_wrapper .dashboard_tab_titles {
-    width: 568px;
+    width: 580px;
   }
   .payment_methods {
     gap: 20px;
@@ -1863,7 +1868,9 @@
   .d_logo div {
     display: none;
   }
-
+  body {
+    padding-top: 100px;
+  }
 }
 
 @media only screen and (max-width: 400px) {

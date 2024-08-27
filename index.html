@@ -34,7 +34,15 @@
     <div class="main_wrapper">
       <nav class="main_nav_bar">
         <div class="container main_nav_wrapper">
-          <a href="./index.html" data-aos="fade-right" data-aos-duration="1500">
+          <div class="mob_menu">
+            <img onclick="menuToggler()" src="./assets/icons/menu.svg" alt="" />
+          </div>
+          <a
+            href="./index.html"
+            class="main_nav_logo"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
             <img src="./assets/logo.svg" alt="" />
           </a>
           <div
@@ -67,13 +75,25 @@
           src="./assets/gradients/main-nav-gradient.svg"
           alt=""
         />
-        <img
-          class="main_nav_bar_cubes"
-          src="./assets/gradients/main-nav-cubes.svg"
-          alt=""
-        />
       </nav>
 
+      <!-- mob -->
+
+      <div class="mob_menu_wrapper">
+        <div class="mob_menu_close">
+          <img onclick="menuToggler()" src="./assets/icons/exit.svg" alt="" />
+        </div>
+        <div class="main_nav_list main_nav_list_mob" data-aos="zoom-in" data-aos-duration="1500">
+          <p class="scroll-button" id="our-goal-btn">Our Goal</p>
+          <p class="scroll-button" id="about-us-btn">About Us</p>
+          <p class="scroll-button" id="how-it-works-btn">How It Work</p>
+          <p class="scroll-button" id="tokenomics-btn">Tokenomics</p>
+          <p class="scroll-button" id="roadmap-btn">Roadmap</p>
+          <p class="scroll-button" id="community-support-btn">
+            Community & Support
+          </p>
+        </div>
+      </div>
       <header>
         <div class="header_wrapper container">
           <div class="parallax parallax_element">
@@ -96,17 +116,23 @@
             src="./assets/gradients/header-cube.svg"
             alt=""
           />
-          <video class="header_wrapper_gif" autoplay muted loop playsinline>
+          <img
+            class="main_nav_bar_cubes"
+            src="./assets/gradients/main-nav-cubes.svg"
+            alt=""
+          />
+          <video
+            class="header_wrapper_gif"
+            autoplay
+            muted
+            loop
+            playsinline
+            data-aos="fade-up"
+            data-aos-duration="1900"
+          >
             <source src="./assets/gifs/video.mp4" type="video/mp4" />
           </video>
 
-          <!-- <img
-            class="header_wrapper_gif"
-            src="./assets/gifs/gif.png"
-            alt=""
-            data-aos="fade-up"
-            data-aos-duration="1900"
-          /> -->
           <div
             class="loved_investm"
             data-aos="fade-up"
@@ -474,14 +500,14 @@
               just another ordinary exchange but rather a holistic environment
               where both traders & investors can thrive together.
             </p>
-            <div
-              class="why_is_different"
-              data-aos="fade-up"
-              data-aos-duration="1500"
-            >
+            <div class="why_is_different">
               <h3>Why Traders.io is Different</h3>
 
-              <div class="why_is_different_item">
+              <div
+                class="why_is_different_item"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 <div class="why_is_different_item_title">
                   <p>Regulated <span>vs.</span> Unregulated</p>
                 </div>
@@ -494,7 +520,11 @@
                 </div>
               </div>
 
-              <div class="why_is_different_item">
+              <div
+                class="why_is_different_item"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 <div class="why_is_different_item_title">
                   <p>
                     Smart Contracts <span> vs. </span> Built to Cheat Systems
@@ -509,7 +539,11 @@
                   </p>
                 </div>
               </div>
-              <div class="why_is_different_item">
+              <div
+                class="why_is_different_item"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 <div class="why_is_different_item_title">
                   <p>Free Challenges <span>vs.</span> Paid Challenges Only</p>
                 </div>
@@ -522,7 +556,11 @@
                   </p>
                 </div>
               </div>
-              <div class="why_is_different_item">
+              <div
+                class="why_is_different_item"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 <div class="why_is_different_item_title">
                   <p>Empowering Rules <span>vs.</span> Discouraging Rules</p>
                 </div>
@@ -533,7 +571,11 @@
                   </p>
                 </div>
               </div>
-              <div class="why_is_different_item">
+              <div
+                class="why_is_different_item"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 <div class="why_is_different_item_title">
                   <p>
                     Unlimited Growth Potential <span>vs.</span> Capped Growth
@@ -548,7 +590,11 @@
                   </p>
                 </div>
               </div>
-              <div class="why_is_different_item">
+              <div
+                class="why_is_different_item"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 <div class="why_is_different_item_title">
                   <p>Real Money <span>vs.</span> Simulated Money</p>
                 </div>
@@ -561,7 +607,11 @@
                   </p>
                 </div>
               </div>
-              <div class="why_is_different_item">
+              <div
+                class="why_is_different_item"
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              >
                 <div class="why_is_different_item_title">
                   <p>Ongoing Education <span>vs.</span> Short-Term Gains</p>
                 </div>
@@ -1868,22 +1918,14 @@
               </div>
             </div>
           </div>
-          <div
-            class="phone_contact"
-            data-aos="fade-right"
-            data-aos-duration="1500"
-          >
+          <div class="phone_contact">
             <div class="phone_contact_title">
               <img src="./assets/icons/headphone.svg" alt="" />
               <p>Phone/Whatsapp:</p>
             </div>
             <a href="tel:+812 812 45 484">+812 812 45 484</a>
           </div>
-          <div
-            class="footer_bottom"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-          >
+          <div class="footer_bottom">
             <p>© 2024 Traders.io All rights reserved.</p>
             <button class="main_btn">support@traders.io</button>
           </div>
@@ -1895,6 +1937,7 @@
     <!-- scripts -->
     <script src="./scripts/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./scripts/main.js"></script>
     <script>
       var swiper = new Swiper(".support_carousel", {
         loop: false,
@@ -1907,6 +1950,9 @@
         },
         breakpoints: {
           300: {
+            slidesPerView: 1,
+          },
+          700: {
             slidesPerView: 2,
           },
           1024: {
