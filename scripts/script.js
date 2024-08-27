@@ -34,9 +34,15 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   scrollToBlock("our-goal-btn", "our-goal");
+  scrollToBlock("our-goal-btn-mob", "our-goal");
   scrollToBlock("about-us-btn", "about-us");
+  scrollToBlock("about-us-btn-mob", "about-us");
   scrollToBlock("how-it-works-btn", "how-it-works");
+  scrollToBlock("how-it-works-btn-mob", "how-it-works");
   scrollToBlock("tokenomics-btn", "tokenomics");
+  scrollToBlock("tokenomics-btn-mob", "tokenomics");
   scrollToBlock("roadmap-btn", "roadmap");
+  scrollToBlock("roadmap-btn-mob", "roadmap");
   scrollToBlock("community-support-btn", "community-support");
+  scrollToBlock("community-support-btn-mob", "community-support");
 });

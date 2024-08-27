@@ -83,13 +83,18 @@
         <div class="mob_menu_close">
           <img onclick="menuToggler()" src="./assets/icons/exit.svg" alt="" />
         </div>
-        <div class="main_nav_list main_nav_list_mob" data-aos="zoom-in" data-aos-duration="1500">
-          <p class="scroll-button" id="our-goal-btn">Our Goal</p>
-          <p class="scroll-button" id="about-us-btn">About Us</p>
-          <p class="scroll-button" id="how-it-works-btn">How It Work</p>
-          <p class="scroll-button" id="tokenomics-btn">Tokenomics</p>
-          <p class="scroll-button" id="roadmap-btn">Roadmap</p>
-          <p class="scroll-button" id="community-support-btn">
+        <div
+          class="main_nav_list main_nav_list_mob"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+          onclick="menuToggler()"
+        >
+          <p class="scroll-button" id="our-goal-btn-mob">Our Goal</p>
+          <p class="scroll-button" id="about-us-btn-mob">About Us</p>
+          <p class="scroll-button" id="how-it-works-btn-mob">How It Work</p>
+          <p class="scroll-button" id="tokenomics-btn-mob">Tokenomics</p>
+          <p class="scroll-button" id="roadmap-btn-mob">Roadmap</p>
+          <p class="scroll-button" id="community-support-btn-mob">
             Community & Support
           </p>
         </div>
@@ -121,17 +126,6 @@
             src="./assets/gradients/main-nav-cubes.svg"
             alt=""
           />
-          <video
-            class="header_wrapper_gif"
-            autoplay
-            muted
-            loop
-            playsinline
-            data-aos="fade-up"
-            data-aos-duration="1900"
-          >
-            <source src="./assets/gifs/video.mp4" type="video/mp4" />
-          </video>
 
           <div
             class="loved_investm"
@@ -162,6 +156,16 @@
             alt=""
           />
           <div class="header_content_block">
+            <video
+              class="header_wrapper_gif"
+              autoplay
+              muted
+              loop
+              playsinline
+ 
+            >
+              <source src="./assets/gifs/video.mp4" type="video/mp4" />
+            </video>
             <div
               class="header_content_block_top"
               id="our-goal"
